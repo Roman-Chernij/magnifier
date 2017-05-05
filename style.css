@@ -1,0 +1,26 @@
+.b-img-block {
+  width: 500px;
+  height: 393px;
+  margin: 60px auto;
+  position: relative;
+}
+
+.img-block__img {
+  min-width: 100%;
+}
+
+.img-block__magnifier {
+  display: none;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.magnifier__img {
+  object-fit: none;
+  transform-origin: 50% 50%;
+  transform: translate(0px, 0px);
+}
